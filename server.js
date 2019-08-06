@@ -6,7 +6,7 @@ const routes = require('./routes');
 
 const server = express();
 
-mongoose.connect('mongodb+srv://omni:omnistack@devtinder-dvzwi.mongodb.net/test?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://username:password@devtinder-dvzwi.mongodb.net/test?retryWrites=true&w=majority', {
     useNewUrlParser: true
 });
 
